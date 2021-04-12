@@ -22,13 +22,6 @@ type List struct { // 定义链表
 	headNode *Node // 定义头结点
 }
 
-type Method interface {
-	//IsEmpty()
-	//Length()
-	//ShowList()
-
-}
-
 // 判断链表是否为空
 func (this *List) IsEmpty() bool {
 	if this.headNode == nil {
