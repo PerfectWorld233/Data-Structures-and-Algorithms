@@ -12,6 +12,8 @@
  *   可以理解为打字牌，通过插入依次调整牌的大小，使之有序
  */
 
+
+
 function InsertSort(array $arr){
 
     $len = count($arr);
