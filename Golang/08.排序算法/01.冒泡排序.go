@@ -5,6 +5,8 @@ import "fmt"
 /**
 冒泡排序
 从小到大排序
+
+时间复杂度： O(n^2)
 */
 
 func BubbleSort(data []int) []int {
